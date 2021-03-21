@@ -1,31 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 body {
   overflow-x: hidden;
-  font-family: 'Lato', sans-serrif;
-  color: #505962
+  font-family: "Lato", sans-serrif;
+  color: #000000;
 }
 
 /*============= Navigation Bar Start =============*/
 .navbar {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: .9rem;
-  letter-spacing: .1rem;
-  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background-color: black;
 }
 /*============= Navigation Bar End =============*/
-
-
-/*============= Landing Page Start =============*/
-.home-inner 
-{
-  background-image: url(images/Slide0.jpg);
-}
-/*============= Landing Page End =============*/
-
-
-/*============= COURSE SECTION =============*/
 
 .narrow {
   width: 75%;
@@ -33,17 +22,17 @@ body {
   padding-top: 2rem;
 }
 .narrow h1 {
-    font-size: 2.4rem;
-  }
+  font-size: 2.4rem;
+}
 .btn-secondary {
   border-width: medium;
   border-radius: 0;
-  padding: .6rem 1.2rem;
+  padding: 0.6rem 1.2rem;
   font-size: 1.2rem;
   text-transform: uppercase;
   margin: 1rem;
-  border-color: #1EBBA3;
-  background-color: #1EBBA3;
+  border-color: #1ebba3;
+  background-color: #1ebba3;
   color: white;
 }
 .btn-secondary:hover,
@@ -52,31 +41,3 @@ body {
   background-color: #189582;
   color: white;
 }
-.thumbnail:hover {
-  position:relative;
-  top:-25px;
-  left:-35px;
-  width:500px;
-  height:auto;
-  display:block;
-  z-index:999;
-}
-
-/*============ BOOTSTRAP BREAK POINTS:
-
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-=============*/
